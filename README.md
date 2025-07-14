@@ -78,12 +78,6 @@ A Streamlit-based web application to download all videos from a YouTube playlist
   - Ensure the playlist is public. Private or region-locked videos may fail.
 - **Large Files**:
   - Re-encoding for subtitles increases processing time. Adjust `-preset` in `app.py` (e.g., `ultrafast` for speed, `slow` for quality) if needed.
-- **Anaconda Warnings**:
-  - If you see warnings about `~orch` or `huggingface_hub`, clean your environment:
-    ```bash
-    pip uninstall torch huggingface_hub
-    pip install torch huggingface_hub
-    ```
 
 ## Example
 Try a playlist with Arabic subtitles, such as one from an Arabic educational or news channel (e.g., Al Jazeera). The app will process each video and provide download links.
