@@ -1,5 +1,4 @@
 # YouTube-Video-Downloader-with-Embedded-Arabic-Subtitles
-# YouTube Playlist Downloader with Embedded Arabic Subtitles
 
 A Streamlit-based web application to download all videos from a YouTube playlist, download Arabic subtitles (if available), and embed them as soft subtitles into each video.
 
